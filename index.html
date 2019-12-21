@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Player</title>
+    <link rel="icon" type="image/png" href="images/icon.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans|Questrial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="js-body dark-mode">
+    <div class="color-mode js-color-mode">
+            <img src="images/question2.svg" title="Plain mode" class="sun-pic js-sun-pic"/>
+            <img src="images/question.svg" title="Gradient mode" class="moon-pic js-moon-pic"/>
+    </div>
+    <div>
+        <div class="player js-player">
+            <div class="container">
+                <audio
+                class="js-audio"
+                src="audio/oxfordblood.mp3"
+                >Your browser doesn't support audio element.</audio>
+
+                <img src="images/autoheart.jpg" title="Ghost" class="album-pic js-cover"/>
+                <a class="play-pause js-play-pause">
+                    <img src="images/white-play.svg" title="play" class="album-play-button js-play-button"/>
+                    <img src="images/white-pause.svg" title="pause" class="album-pause-button js-pause-button"/>
+                </a>
+
+                <div class="song-infos">
+                    <h3 class="js-song-title">Oxford blood</h3>
+                    <p class="js-artist">Autoheart</p>
+                </div>
+                <div class="time-infos">
+                    <div class="time current-time js-current-time"><p>0:00</p></div>
+                    <div class="seek-bar js-seek-bar">
+                        <div class="fill js-seek-bar-fill"></div>
+                    </div>
+                    <div class="time remaining-time js-remaining-time"><p>3:41</p></div>
+                </div>
+
+                <div class="all-buttons">
+                    <div class="controls">
+                        <a class="return">
+                          <img src="images/before.png" title="before" class="before10s-button js-before10s-button"/>
+                        </a>
+                        <a class="arrow-buttons">
+                            <img src="images/backward.png" title="previous" class="previous-button js-previous-button"/>
+                        </a>
+                         <a class="play-pause js-play-pause">
+                            <img src="images/play.svg" title="play" class="play-button js-play-button"/>
+                            <img src="images/pause.svg" title="pause" class="pause-button js-pause-button"/>
+                        </a>
+                        <a class="arrow-buttons">
+                            <img src="images/forward.png" title="next" class="next-button js-next-button"/>
+                        </a>
+                        <a class="return">
+                          <img src="images/after.png" title="after" class="after10s-button js-after10s-button"/>
+                        </a>
+                    </div>
+                    <a class="random-button js-random-button">
+                      <img src="images/random-inactive.svg" title="random-inactive" class="random-inactive-button js-random-inactive-button"/>
+                      <img src="images/random-active.svg" title="random-active" class="random-active-button js-random-active-button"/>
+                    </a>
+                    <div class="sound">
+                        <div class="muted">
+                            <a class="mute js-mute">
+                                <img src="images/mute-dark.png" title="mute" class="mute-button js-mute js-mute-button"/>
+                                <img src="images/unmute.png" title="mute" class="unmute-button js-mute js-unmute-button"/>
+                            </a>
+                        </div>
+                        <div class="volume-bar">
+                            <div class="bar bar-0 js-bar js-bar-0"></div>
+                            <div class="bar bar-1 js-bar js-bar-1"></div>
+                            <div class="bar bar-2 js-bar js-bar-2"></div>
+                            <div class="bar bar-3 js-bar js-bar-3"></div>
+                            <div class="bar bar-4 js-bar js-bar-4"></div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
