@@ -333,8 +333,8 @@ class Player
             },
             {
                 "src": "audio/champion.mp3",
-                "artist": "Champion",
-                "song": "Bishop Briggs",
+                "artist": "Bishop Briggs",
+                "song": "Champion",
                 "cover": "images/champion.jpg",
             },
             {
