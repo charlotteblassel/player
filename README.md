@@ -1,5 +1,7 @@
 # JavaScript music player
 
+https://charlotteblasselplayer.netlify.com/
+
 This project is a music player made in HTML, CSS and JavaScript.
 
 Click on the play button in the middle of the album picture or at the bottom of the player to listen to a song.
